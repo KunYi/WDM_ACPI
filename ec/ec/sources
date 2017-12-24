@@ -1,0 +1,17 @@
+TARGETNAME=acpiec
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+MSC_WARNING_LEVEL=-W3 -WX
+
+SOURCES=acpiec.c        \
+        eclowio.c       \
+        ecpnp.c         \
+        handlers.c      \
+        service.c       \
+        query.c         \
+        acpiec.rc
+
+
+INCLUDES= ..\inc;
+
